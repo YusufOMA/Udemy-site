@@ -1,0 +1,33 @@
+
+
+@use "../abstracs/variabeles";
+
+.container__trouw{
+    height: 40rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+
+    .container__team{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        width: 100%;
+        padding: 2rem;
+        height: 25rem;
+
+        .container__h2{
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .container__trust{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 12rem;
+        }
+    }
+}

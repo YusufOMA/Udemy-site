@@ -1,0 +1,134 @@
+@use "../abstracs/variabeles";
+@use "../abstracs/reset.scss";
+
+
+.udemy__business{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50rem;
+
+    .udemy__article{
+        display: flex;
+        padding: 2rem 40rem;
+        align-items: center;
+        justify-content: center;
+        min-height: 40rem;
+        gap: 2rem;
+        
+        
+        .udemy__div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 100%;
+            min-height: 40rem;
+
+            .udemy__tekst{
+                width: 30ch;
+            }
+            
+           
+            
+
+            .udemy__teksst{
+                width: 20rem;
+                height: 4rem;
+                background: rgba(0,0,0,0.9);
+                color: variabeles.$color;
+                cursor: pointer;
+
+                &:hover{
+                    background: rgba(0,0,0,1);
+                }
+            }
+            .udemy__img{
+                max-width: 100%;
+                height: 40%;
+                object-fit: contain;
+            }
+            
+        }
+
+        .udemy__img{
+            display: flex;
+            
+            
+
+            .udemy__image{
+                width: 100%;
+                min-height: 40rem;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+
+// breng verandering
+
+.instructeur__game{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 50rem;
+
+    .instructeur__verandering{
+        display: flex;
+        justify-content: center;
+        
+        
+        .instructeur__img{
+            display: flex;
+            height: 40rem;
+            
+            .img_breng_veranderingen{
+                max-width: 100%;
+                min-height: 40rem;
+                object-fit: cover;
+            }
+        }
+
+        .instructeur__text{
+            display: flex;
+            justify-content: flex-start;
+            padding: 3rem;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 40ch;
+
+            .instructeur__h2{
+                font-size: 3rem;
+                font-weight: 600;
+            }
+
+            .instructeur__tekst{
+                width: 36ch;
+            }
+
+            .instructeur__button{
+                width: 20rem;
+                height: 4rem;
+                background: rgba(0,0,0,0.9);
+                color: variabeles.$color;
+                font-weight: 600;
+                cursor: pointer;
+
+                &:hover{
+                    background: rgba(0,0,0,1);
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+

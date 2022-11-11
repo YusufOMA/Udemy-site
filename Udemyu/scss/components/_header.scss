@@ -1,0 +1,88 @@
+@use "../abstracs/variabeles";
+@use "../abstracs/reset.scss";
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1rem 0 3rem 1rem rgba(0,0,0,0.2);
+    list-style: none;
+    height: 8rem;
+    padding: 2rem;
+    gap: 2rem;
+    .header__emoji{
+        display: none;
+    }
+}
+
+
+
+.header__li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.header__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 3rem;
+}
+
+.header__icon{
+    position: relative;
+    left: 4rem;
+    width: 2.5rem;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__searchbar{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    padding: 2rem 5rem;
+    border: 0.1rem solid rgba(0,0,0,0.9);
+}
+
+.header__logo{
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+.header__inloggen{
+    width: 8rem;
+    height: 4rem;
+    border: 0.1rem solid rgba(0,0,0,0.9);
+    background: variabeles.$color;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.header__inschrijven{
+    width: 10rem;
+    height: 4rem;
+    background: rgba(0,0,0,0.8);
+    color: variabeles.$color;
+    font-weight: 600;
+}
+
+.header__inschrijven:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.9);
+}
+
+.header__wereldbol{
+    width: 4rem;
+    border: 0.1rem solid rgba(0,0,0,0.9);
+    padding: 0.8rem;
+}

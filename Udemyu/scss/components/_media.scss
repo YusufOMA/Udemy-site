@@ -1,0 +1,133 @@
+@media screen and (max-width: 50rem) {
+    body {
+        .header__ul {
+            .header__hidden {
+                display: none;
+            }
+            .header__emoji {
+                display: flex;
+            }
+        }
+        .main__kaart {
+            display: flex;
+            position: relative;
+            left: 16rem;
+            bottom: 24rem;
+
+            .main__cart {
+                width: 38rem;
+            }
+        }
+        .main__artiekel {
+            position: relative;
+            left: 10rem;
+            bottom: 14rem;
+            font-size: 1.5rem;
+
+            .main__section {
+                .main__pudemy {
+                    width: 45ch;
+                }
+            }
+        }
+        .udemy__business {
+            .udemy__article {
+                display: flex;
+                flex-direction: column-reverse;
+                .udemy__div {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+        .instructeur__verandering {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    body {
+        .main__kaart {
+            display: flex;
+            position: relative;
+            left: 4rem;
+            bottom: 24rem;
+            .main__cart {
+                width: 38rem;
+            }
+        }
+        .main__artiekel {
+            position: relative;
+            left: 2rem;
+            bottom: 14rem;
+            font-size: 1.5rem;
+            .main__section {
+                .main__pudemy {
+                    width: 45ch;
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    body {
+
+
+        .main__kaart {
+            display: flex;
+            position: relative;
+            left: 3rem;
+            bottom: 24rem;
+
+
+            .main__cart {
+                width: 34rem;
+
+                .main__h2 {
+                    width: 17ch;
+                }
+
+                .main__p {
+                    width: 25ch;
+                }
+            }
+        }
+
+        .main__artiekel {
+            position: relative;
+            left: 2rem;
+            bottom: 14rem;
+            font-size: 1.5rem;
+
+            .main__section {
+                .main__pudemy {
+                    width: 34ch;
+                }
+
+            }
+
+
+        }
+
+        .instructeur__img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .studenten__kaartjes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer__article {
+            display: flex;
+            gap: 4rem;
+        }
+    }
+
+}

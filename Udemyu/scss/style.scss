@@ -1,0 +1,14 @@
+@use './abstracs/reset';
+@use './abstracs/base';
+@use './abstracs/mixins';
+@use './abstracs/variabeles';
+
+
+@use './components/header';
+@use './components/main';
+@use './components/footer';
+@use './components/media';
+@use './components/instructeur';
+@use './components/vertrouw';
+@use './components/onderwerpen';
+@use './components/cards';

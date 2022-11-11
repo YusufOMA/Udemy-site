@@ -1,0 +1,153 @@
+@use "../abstracs/variabeles";
+@use "../abstracs/reset.scss";
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main__foto{
+        width: 85%;
+        height: 40rem;
+        object-fit: cover;
+    }
+    
+}
+
+
+.main__kaart{
+    display: flex;
+    position: relative;
+    bottom: 31rem;
+    left: 20rem;
+
+    .main__h2{
+        width: 25ch;
+        font-weight: bolder;
+        font-size: 3rem;
+    }
+
+    .main__p{
+        width: 38ch;
+        
+    }
+
+    .main__cart{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem;
+        width: 45rem;
+        height: 20rem;
+        background: variabeles.$color;
+        border-radius: 0.5rem;
+        box-shadow: 0.5rem 0.5rem 1rem 0rem rgba(0,0,0,0.1);
+    }
+}
+
+.main__artiekel{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 12rem;
+    width: 85%;
+    gap: 2rem;
+     
+    
+    .main__section{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .main__h2{
+            font-size: 4rem;
+        }
+
+        .p_article_udemy{
+            font-size: 2rem;
+            width: 70ch;
+        }
+    }
+
+
+    .main__container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+
+        .main__article{
+            display: flex;
+            gap: 2rem;
+            
+            .main__lu{
+                color: rgba(0,0,0,0.9);
+                list-style: none;
+    
+                &:hover {
+                    color: rgba(0,0,0,1);
+                    cursor: pointer;
+                    font-weight: 501;
+                }
+                
+
+            }
+        }
+    
+        .main__div{
+            min-width: 70%;
+            padding: 3.2rem;
+            min-height: 30rem;
+            gap: 2rem;
+            
+            border: 0.1rem solid rgba(0,0,0,0.5);
+            
+
+            .img_carousel{
+                min-width: 100%;
+                max-height: 40rem;
+                object-fit: cover;
+            }
+            
+
+            .main__intro{
+                width: 100%;
+                max-width: 80rem;
+                overflow: hidden;
+            }
+        }
+    
+        .main__tekst{
+            display: flex;
+            flex-direction: column;
+
+            .main__button{
+                min-width: 8rem;
+                max-width: 12rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: nowrap;
+                height: 4rem;
+                border:0.1rem solid;
+                background: white;
+                font-weight: 600;
+                cursor: pointer;
+
+                &:hover{
+                    background: rgba(0,0,0,0.9);
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+}
